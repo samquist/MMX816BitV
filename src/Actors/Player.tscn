@@ -1,4 +1,4 @@
-[gd_scene load_steps=132 format=2]
+[gd_scene load_steps=133 format=2]
 
 [ext_resource path="res://src/Actors/Player/x_sprites/x.res" type="SpriteFrames" id=1]
 [ext_resource path="res://src/Actors/Player.gd" type="Script" id=2]
@@ -119,6 +119,7 @@
 [ext_resource path="res://src/Actors/Bosses/SatanSigma/flash.gd" type="Script" id=117]
 [ext_resource path="res://src/Effects/Textures/elec_particles.png" type="Texture" id=118]
 [ext_resource path="res://src/Effects/Materials/xdrive_particles.tres" type="Material" id=119]
+[ext_resource path="res://src/Actors/Player/BossWeapons/WildHorse/WildHorse.tscn" type="PackedScene" id=120]
 
 [sub_resource type="RectangleShape2D" id=32]
 extents = Vector2( 6.995, 7 )
@@ -189,15 +190,15 @@ max_health = 16.0
 [node name="Armor" type="Node2D" parent="."]
 pause_mode = 2
 script = ExtResource( 47 )
-NeutralColor1 = Color( 0.909804, 0.878431, 0.25098, 1 )
-NeutralColor2 = Color( 0.945098, 0.6, 0.27451, 1 )
-NeutralColor3 = Color( 0.670588, 0.313726, 0.266667, 1 )
-HermesColor1 = Color( 0.470588, 0.847059, 0.941176, 1 )
-HermesColor2 = Color( 0.313726, 0.627451, 0.941176, 1 )
-HermesColor3 = Color( 0.0941176, 0.345098, 0.690196, 1 )
-IcarusColor1 = Color( 1, 0.611765, 0.301961, 1 )
-IcarusColor2 = Color( 0.921569, 0.301961, 0.0627451, 1 )
-IcarusColor3 = Color( 0.584314, 0.2, 0.290196, 1 )
+NeutralColor1 = Color( 0.596078, 0.376471, 0.909804, 1 )
+NeutralColor2 = Color( 0.396078, 0.239216, 0.760784, 1 )
+NeutralColor3 = Color( 0.152941, 0.235294, 0.486275, 1 )
+HermesColor1 = Color( 0.501961, 0.690196, 0.0627451, 1 )
+HermesColor2 = Color( 0.345098, 0.501961, 0, 1 )
+HermesColor3 = Color( 0.219608, 0.345098, 0, 1 )
+IcarusColor1 = Color( 0.273, 0.4082, 0.78, 1 )
+IcarusColor2 = Color( 0.21, 0.314, 0.6, 1 )
+IcarusColor3 = Color( 0.188235, 0.219608, 0.407843, 1 )
 BodyColor1 = Color( 0.52549, 0.345098, 0.458824, 1 )
 BodyColor2 = Color( 0.34902, 0.211765, 0.298039, 1 )
 
@@ -279,7 +280,7 @@ position = Vector2( 0, -4 )
 z_index = 5
 frames = ExtResource( 1 )
 animation = "idle"
-frame = 69
+frame = 13
 playing = true
 
 [node name="head_armor" type="AnimatedSprite" parent="animatedSprite"]
@@ -512,7 +513,7 @@ cast_to = Vector2( 0, 8 )
 visible = false
 
 [node name="Shot Position" type="Node2D" parent="."]
-position = Vector2( 18, -2 )
+position = Vector2( 18, -3 )
 
 [node name="WeaponChanger" type="Node2D" parent="."]
 script = ExtResource( 8 )
@@ -679,6 +680,8 @@ script = ExtResource( 76 )
 can_buffer = false
 weapon = ExtResource( 77 )
 dash_speed = Vector2( 280, 280 )
+
+[node name="node2D" parent="Shot" instance=ExtResource( 120 )]
 
 [node name="GigaCrash" type="Node2D" parent="Shot"]
 script = ExtResource( 92 )

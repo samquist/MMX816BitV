@@ -168,11 +168,15 @@ func equip_hermes_arms_parts(): #triple shot
 	#get_node("Charge").level_4_charge = 2.8
 
 func equip_hermes_legs_parts(): #ghost dash
-	get_node("Dash").upgraded = true
-	get_node("Dash").invulnerability_duration = 0.475
-	get_node("AirJump").set_max_air_jumps(0)
-	get_node("AirDash").max_airdashes = 1
-	get_node("AirDash").airdash_count = 2
+	var dash = get_node("Dash")
+	var airdash = get_node("AirDash")
+	get_node("AirJump").set_max_air_jumps(2)
+	dash.upgraded = false
+	dash.dash_duration = 0.55
+	dash.invulnerability_duration = 0
+	airdash.upgraded = false
+	airdash.max_airdashes = 2
+	airdash.invulnerability_duration = 0
 
 func equip_icarus_head_parts():
 	get_node("Charge").charge_time_reduction = 0
@@ -201,15 +205,11 @@ func equip_icarus_arms_parts(): #laser shot
 	#get_node("Charge").level_4_charge = 3.25
 
 func equip_icarus_legs_parts(): #double jump
-	var dash = get_node("Dash")
-	var airdash = get_node("AirDash")
-	get_node("AirJump").set_max_air_jumps(2)
-	dash.upgraded = false
-	dash.dash_duration = 0.55
-	dash.invulnerability_duration = 0
-	airdash.upgraded = false
-	airdash.max_airdashes = 2
-	airdash.invulnerability_duration = 0
+	get_node("Dash").upgraded = true
+	get_node("Dash").invulnerability_duration = 0.475
+	get_node("AirJump").set_max_air_jumps(0)
+	get_node("AirDash").max_airdashes = 1
+	get_node("AirDash").airdash_count = 2
 
 func is_full_armor() -> String:
 	var armor_set := 0

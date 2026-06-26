@@ -6,7 +6,7 @@
 
 [node name="animatedSprite" parent="." index="0"]
 visible = false
-frame = 3
+frame = 0
 
 [node name="teleport" parent="." index="2"]
 volume_db = -14.0

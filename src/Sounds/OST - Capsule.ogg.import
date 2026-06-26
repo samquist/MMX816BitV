@@ -11,5 +11,5 @@ dest_files=[ "res://.import/OST - Capsule.ogg-bc13086e679b4ad873cc46c19666a6fb.o
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

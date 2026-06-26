@@ -65,7 +65,7 @@ pop_in_time = 0.0
 
 [node name="animatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 19 )
-frame = 5
+frame = 4
 playing = true
 
 [node name="visibilityNotifier2D" type="VisibilityNotifier2D" parent="."]

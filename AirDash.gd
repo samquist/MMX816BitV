@@ -1,7 +1,7 @@
 extends Dash
 class_name AirDash
 
-#default airdash duration: 0.475
+#default airdash duration: 0.47
 onready var airjump = character.get_node("AirJump")
 var should_reduce_airjumps := false
 var infinite_airdashes := false

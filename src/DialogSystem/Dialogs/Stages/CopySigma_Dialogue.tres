@@ -6,4 +6,4 @@
 
 [resource]
 script = ExtResource( 1 )
-dialog = [ ExtResource( 2 ), "COPYSIGMA1", ExtResource( 3 ), "COPYSIGMA2", ExtResource( 2 ), "COPYSIGMA3", "COPYSIGMA4", ExtResource( 3 ), "COPYSIGMA5", "COPYSIGMA6", "COPYSIGMA7" ]
+dialog = [ ExtResource( 2 ), "COPYSIGMA1", ExtResource( 3 ), "COPYSIGMA2", "COPYSIGMA3", ExtResource( 2 ), "COPYSIGMA4", ExtResource( 3 ), "COPYSIGMA5", "COPYSIGMA6", "COPYSIGMA7" ]

@@ -3,7 +3,8 @@
 [ext_resource path="res://src/DialogSystem/Profiles/DialogueText.gd" type="Script" id=1]
 [ext_resource path="res://src/DialogSystem/Profiles/X.tres" type="Resource" id=2]
 [ext_resource path="res://src/DialogSystem/Profiles/Sigma.tres" type="Resource" id=3]
+[ext_resource path="res://src/DialogSystem/Profiles/XEvil.tres" type="Resource" id=4]
 
 [resource]
 script = ExtResource( 1 )
-dialog = [ ExtResource( 3 ), "SIGMA1", "SIGMA2", ExtResource( 2 ), "SIGMA3", ExtResource( 3 ), "SIGMA4", "SIGMA5", ExtResource( 2 ), "SIGMA6", ExtResource( 3 ), "SIGMA7", "SIGMA8", ExtResource( 2 ), "SIGMA9", ExtResource( 3 ), "SIGMA10", "SIGMA11", "SIGMA12" ]
+dialog = [ ExtResource( 3 ), "SIGMA1", ExtResource( 2 ), "SIGMA2", ExtResource( 3 ),"SIGMA3", "SIGMA4", "SIGMA5", ExtResource( 2 ), "SIGMA6", ExtResource( 3 ), "SIGMA7", ExtResource( 2 ), "SIGMA8", ExtResource( 3 ), "SIGMA9", "SIGMA10", "SIGMA11", "SIGMA12", ExtResource( 4 ), "SIGMA13", "SIGMA14", ExtResource( 3 ), "SIGMA15" ]

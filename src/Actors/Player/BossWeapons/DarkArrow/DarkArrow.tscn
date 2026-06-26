@@ -29,7 +29,7 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="CircleShape2D" id=19]
+[sub_resource type="CircleShape2D" id=33]
 radius = 7.5
 
 [sub_resource type="CanvasItemMaterial" id=12]
@@ -65,7 +65,7 @@ playing = true
 [node name="collisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( -2, 0 )
 scale = Vector2( 2, 1 )
-shape = SubResource( 19 )
+shape = SubResource( 33 )
 
 [node name="remains_particles" type="Particles2D" parent="."]
 material = SubResource( 12 )

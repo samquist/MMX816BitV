@@ -5,4 +5,4 @@
 
 [resource]
 script = ExtResource( 1 )
-dialog = [ ExtResource( 2 ), "HERMESBODY1", "HERMESBODY2", "HERMESBODY3", "HERMESBODY4" ]
+dialog = [ ExtResource( 2 ), "HERMESBODY1", "HERMESBODY2", "HERMESBODY3", "HERMESBODY4", "HERMESBODY5" ]

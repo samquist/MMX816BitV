@@ -117,11 +117,12 @@ static func timer_r(wait_time : float, method : String, parent : Node, param = n
 	timer.call_deferred("start")
 	return timer
 
-# warning-ignore:unused_argument
-static func tween(parent,property,final_value,duration, ease_type := Tween.EASE_IN_OUT, trans_type := Tween.TRANS_LINEAR) -> void:
-	var tween : SceneTreeTween  = parent.create_tween()
+static func tween(parent, property, final_value, duration, ease_type := Tween.EASE_IN_OUT, trans_type := Tween.TRANS_LINEAR) -> void:
+	var tween : SceneTreeTween = parent.create_tween()
+	# Convert int to float automatically to prevent type mismatch errors
+	var fixed_value = float(final_value) if typeof(final_value) == TYPE_INT else final_value
 # warning-ignore:return_value_discarded
-	tween.tween_property(parent,property,final_value, duration).set_ease(Tween.EASE_IN_OUT).set_trans(trans_type)
+	tween.tween_property(parent, property, fixed_value, duration).set_ease(Tween.EASE_IN_OUT).set_trans(trans_type)
 	
 static func tween_method(parent,method,start_value,final_value,duration) -> void:
 	var tween : SceneTreeTween  = parent.create_tween()

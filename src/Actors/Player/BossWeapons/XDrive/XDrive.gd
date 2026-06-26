@@ -49,7 +49,7 @@ func _input(event: InputEvent) -> void:
 			fire()
 
 func on_equip():
-	if character.is_full_armor() == "hermes":
+	if character.is_full_armor() == "icarus":
 		active = true
 		current_ammo = max_ammo
 		Event.emit_signal("special_activated",self)

@@ -6,4 +6,4 @@
 
 [resource]
 script = ExtResource( 1 )
-dialog = [ ExtResource( 3 ), "TRILOBYTE1", ExtResource( 2 ), "TRILOBYTE2", ExtResource( 3 ), "TRILOBYTE3", "TRILOBYTE4" ]
+dialog = [ ExtResource( 3 ), "TRILOBYTE1", ExtResource( 2 ), "TRILOBYTE2", ExtResource( 3 ), "TRILOBYTE3", ExtResource( 2 ), "TRILOBYTE4", ExtResource( 3 ), "TRILOBYTE5", "TRILOBYTE6" ]

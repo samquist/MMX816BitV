@@ -1,7 +1,7 @@
 extends Movement
 class_name Dash
 
-export var dash_duration := 0.55
+export var dash_duration := 0.25
 export var upgraded := false
 export var invulnerability_duration := 0.0
 export var leeway := 0.1
