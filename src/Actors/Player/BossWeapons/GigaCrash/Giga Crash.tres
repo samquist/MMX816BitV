@@ -6,8 +6,8 @@
 
 [resource]
 script = ExtResource( 2 )
-short_name = "G. Impact"
-collectible = "full_icarus"
+short_name = "H. Involute"
+collectible = "full_hermes"
 icon = ExtResource( 1 )
 palette = ExtResource( 3 )
 regular_ammo_cost = 1.0

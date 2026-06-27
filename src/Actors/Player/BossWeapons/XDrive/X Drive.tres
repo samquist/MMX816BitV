@@ -6,8 +6,8 @@
 
 [resource]
 script = ExtResource( 2 )
-short_name = "X. Drive"
-collectible = "full_hermes"
+short_name = "V. Drive"
+collectible = "full_icarus"
 icon = ExtResource( 3 )
 palette = ExtResource( 1 )
 regular_ammo_cost = 1.0

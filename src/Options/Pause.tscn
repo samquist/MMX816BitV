@@ -656,7 +656,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "X_WPNMENU"
+text = "C. Blast"
 uppercase = true
 
 [node name="sunflower_weapon" type="TextureButton" parent="pause/Weapons"]
@@ -700,7 +700,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "S. Shield"
+text = "C. PHANTOM"
 uppercase = true
 
 [node name="antonion_weapon" type="TextureButton" parent="pause/Weapons"]
@@ -744,7 +744,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "G. bomb"
+text = "S. CRAWLER"
 uppercase = true
 
 [node name="mantis_weapon" type="TextureButton" parent="pause/Weapons"]
@@ -788,7 +788,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "B. Arrow"
+text = "Q. HOMESICK"
 uppercase = true
 
 [node name="manowar_weapon" type="TextureButton" parent="pause/Weapons"]
@@ -832,7 +832,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "T. Dancer"
+text = "S. DEVIL"
 uppercase = true
 
 [node name="panda_weapon" type="TextureButton" parent="pause/Weapons"]
@@ -876,7 +876,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "B. Launcher"
+text = "H. CRUSH"
 uppercase = true
 
 [node name="trilobyte_weapon" type="TextureButton" parent="pause/Weapons"]
@@ -920,7 +920,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "C. Bouncer"
+text = "F. CASTLE"
 uppercase = true
 
 [node name="yeti_weapon" type="TextureButton" parent="pause/Weapons"]
@@ -964,7 +964,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "D. Diamond"
+text = "G. Right"
 uppercase = true
 
 [node name="rooster_weapon" type="TextureButton" parent="pause/Weapons"]
@@ -1008,7 +1008,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "F. Dash"
+text = "W. HORSEKICK"
 uppercase = true
 
 [node name="X Drive" type="TextureButton" parent="pause/Weapons"]
@@ -1052,7 +1052,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "X. Drive"
+text = "V. DRIVE"
 uppercase = true
 
 [node name="Giga Impact" type="TextureButton" parent="pause/Weapons"]
@@ -1096,7 +1096,7 @@ custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
 custom_constants/shadow_offset_x = 1
 custom_constants/shadow_offset_y = 1
 custom_fonts/font = ExtResource( 54 )
-text = "G. Impact"
+text = "H. INVOLUTE"
 uppercase = true
 
 [node name="OptionsMenu" parent="." instance=ExtResource( 61 )]
