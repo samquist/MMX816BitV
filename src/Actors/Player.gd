@@ -172,7 +172,7 @@ func equip_hermes_legs_parts(): #ghost dash
 	var airdash = get_node("AirDash")
 	get_node("AirJump").set_max_air_jumps(2)
 	dash.upgraded = false
-	dash.dash_duration = 0.55
+	dash.dash_duration = 0.3
 	dash.invulnerability_duration = 0
 	airdash.upgraded = false
 	airdash.max_airdashes = 2
