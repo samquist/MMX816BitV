@@ -3,7 +3,7 @@ extends Ability
 
 const default_gravity := 900.0
 #export var execution_delay := 0.0
-export var horizontal_velocity := 130.0
+export var horizontal_velocity := 135.0
 export var jump_velocity := 320.0
 var changed_animation := false
 var jump_plus_ground_velocity := jump_velocity

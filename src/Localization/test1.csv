@@ -134,14 +134,14 @@ ROOSTER_NAME,Burn Rooster,Burn Rooster,Burn Rooster,Frango de Padaria
 ,,,,
 ,,,,
 ,,,,
-HERMESHEAD_NAME,Head Parts H,Head Parts H,Parte de Cabeza H,Par de Chifres H
+HERMESHEAD_NAME,Head Parts V,Head Parts H,Parte de Cabeza H,Par de Chifres H
 HERMESHEAD_DISC,Charges faster.,Carregamento de tiro mais rápido.,Carga más rápido.,Carregamento de tiro mais rápido.
-HERMESBODY_NAME,Body Parts H,Body Parts H,Parte de Cuerpo H,Petcholas H
+HERMESBODY_NAME,Body Parts V,Body Parts H,Parte de Cuerpo H,Petcholas H
 HERMESBODY_DISC,Buster hits heal damage taken.,Acertar Buster cura dano tomado.,Los golpes del Buster curan el daño recibido.,Acertar Buster cura dano tomado.
-HERMESARMS_NAME,Buster Parts H,Buster Parts H,Partes de Buster H,Berro H
+HERMESARMS_NAME,Arm Parts V,Buster Parts H,Partes de Buster H,Berro H
 HERMESARMS_DISC,Weapon shots consume no ammo.,Tiros de Arma não gastam munição.,Los disparos del Arma no consumen munición.,Tiros de Arma não gastam munição.
-HERMESLEGS_NAME,Foot Parts H,Foot Parts H,Parte de Botas H,Saltos H
-HERMESLEGS_DISC,Ground dash is immune to damage,Dash no chão é imune a dano.,Dash por el suelo es inmune al daño.,Dash no chão é imune a dano.
+HERMESLEGS_NAME,Foot Parts V,Foot Parts H,Parte de Botas H,Saltos H
+HERMESLEGS_DISC,Can double jump and air dash.,Dash no chão é imune a dano.,Dash por el suelo es inmune al daño.,Dash no chão é imune a dano.
 ,,,,
 DEFAULTHEAD_NAME,Default Head,Capacete Padrão,Casco Estandar,Chifres Padrão
 DEFAULTHEAD_DISC,Default part.,Parte padrão.,Parte Estandar,Parte padrão.
@@ -152,13 +152,13 @@ DEFAULTARMS_DISC,Default part.,Parte padrão.,Parte Estandar,Parte padrão.
 DEFAULTLEGS_NAME,Default Foot,Botas Padrão,Botas Estandar,Saltos Padrão
 DEFAULTLEGS_DISC,Default part. Can air dash.,Parte padrão. Dash aéreo.,Parte Estandar. Dash Aéreo,Parte padrão. Dash aéreo.
 ,,,,
-ICARUSHEAD_NAME,Head Parts I,,Parte de Cabeza I,Par de Chifres I
+ICARUSHEAD_NAME,Head Parts MK2,,Parte de Cabeza I,Par de Chifres I
 ICARUSHEAD_DISC,Creates damaging area during jump,Pulo causa dano em inimigos.,Crea un área dañina durante el salto.,Pulo causa dano em inimigos.
-ICARUSARMS_NAME,Buster Parts I,,Partes de Buster I,Berro I
+ICARUSARMS_NAME,Arm Parts MK2,,Partes de Buster I,Berro I
 ICARUSARMS_DISC,Charged shots consume no ammo.,Carregados não gastam munição.,Doble salto y Dash aéreo.,Carregados não gastam munição.
-ICARUSLEGS_NAME,Foot Parts I,,Parte de Botas I,Saltos I
-ICARUSLEGS_DISC,Can double jump and air dash.,Pulo duplo e Dash aéreo.,Inmune al empujo al recibir daño.,Pulo duplo e Dash aéreo.
-ICARUSBODY_NAME,Body Parts I,,Parte de Cuerpo I,Petcholas I
+ICARUSLEGS_NAME,Foot Parts MK2,,Parte de Botas I,Saltos I
+ICARUSLEGS_DISC,Ground dash is immune to damage.,Pulo duplo e Dash aéreo.,Inmune al empujo al recibir daño.,Pulo duplo e Dash aéreo.
+ICARUSBODY_NAME,Body Parts MK2,,Parte de Cuerpo I,Petcholas I
 ICARUSBODY_DISC,Immune to knockback.,Não é empurrado ao tomar dano.,Tiros cargados no consumen munición.,Não é empurrado ao tomar dano.
 ,,,,
 HERMESBODY1,"Hello, Vile. I am Gate, a scientist who values powerful Reploids such as yourself.","X... Imaginei que algo assim poderia acontecer, então preparei partes para você.","X... Pensé que algo así podría suceder algún día, así que he preparado partes para ti.","X... Eu acho que exagerei, no tanto de cápsulas que escondi desta vez."
@@ -205,14 +205,14 @@ ICARUSHEAD4,"Enter the capsule to receive the upgrade. Then go show the world wh
 ,,,,
 VILE1-1,"You again. What is it, wannabe?",Vile!,Vile!,Vile!
 VILE1-2,"Ha ha ha! You must feel right at home in this decommissioned dump.",Para onde você levou Lumine? Você pretende impedir o Projeto Jakob?,Dónde has llevado a Lumine? ¿Planeas obstruir el Proyecto Jakob?,Para onde você levou Lumine? Você pretende impedir o Projeto Jakob?
-VILE1-3,"X and Zero are both retired, you know. Why not go join them?",Tanto tempo separados e agora que estamos juntos só o que você faz é me encher de perguntas?,"¡Reunidos después de tanto tiempo separados, y todo lo que haces es bombardearme con preguntas!","Marrapaiz, qual é a sua, cabra? Num dá em um oi? Senhora sua mãe num lhe ensinou modos não?"
+VILE1-3,"X and Zero are both retired, you know. Why not join them?",Tanto tempo separados e agora que estamos juntos só o que você faz é me encher de perguntas?,"¡Reunidos después de tanto tiempo separados, y todo lo que haces es bombardearme con preguntas!","Marrapaiz, qual é a sua, cabra? Num dá em um oi? Senhora sua mãe num lhe ensinou modos não?"
 VILE1-4,"It's not my business that those two chose to hang up their spurs.","Não se preocupe, X... Lumine está em boas mãos. Ha ha ha...","No te preocupes por Lumine, X. Está en buenas manos. Ja ja ja...","Lumine tá tranquilo, tá é relaxando lá no Arroio mais Sigma."
 VILE1-5,"And you got me involved when you stole my face and insulted my style!",O Elevador Orbital é importante demais para machucarmos quem o opera.,El Elevador Orbital es muy importante para nosotros como para hacerle daño a quien lo opera.,Os dois tem bebido demais ultimamente.
 VILE1-6,"Fool! Either way, you're destined for the scrap heap!",Você não sabe o que está fazendo?,¿No sabes lo que estás haciendo?,Você não sabe o que está fazendo?
 ,,,,
 VILE2-1,"Out of the way, knockoff.",Vile!,Vile!,Vile!
 VILE2-2,"Ooh, real scary. Get mad at me all you want!",Cansei de perseguir você. Liberte Lumine. Agora!,Me cansé de perseguirte. ¡Deja ir a Lumine. Ahora!,Cansei de perseguir você. Liberte Lumine. Agora!
-VILE2-3,"While you're ranting and raving, evolution is moving on without you!","Ha ha ha... Lumine? Sempre pensando positivo, né?","Ja ja ja... ¿Lumine? Siempre el pensador positivo, ¿Verdad?","Marrapaiz, a cada dia que passa cê parece que fica é mais ignorante."
+VILE2-3,"While you're throwing a fit, evolution is moving on without you!","Ha ha ha... Lumine? Sempre pensando positivo, né?","Ja ja ja... ¿Lumine? Siempre el pensador positivo, ¿Verdad?","Marrapaiz, a cada dia que passa cê parece que fica é mais ignorante."
 VILE2-4,"The new generation is an inevitable course of nature. You can't fight it!","Olhe a sua volta, idiota! Seu mundo já começou a desmoronar e você ainda pensa que pode fazer exigências?","¡Mira a tu alrededor, idiota! ¡Tu mundo ya ha comenzado a desmoronarse! ¿Eres tan tonto como para pensar que estás en posición de hacer demandas?",Parece que é abestado.
 VILE2-5,"I'm a force of nature in my own right. I'll fight what I want!",O mundo que você conhecia? Mavericks? Pode dar adeus a tudo isso!,¿El mundo tal como lo conoces? ¿Mavericks? ¡Dile adiós a todo eso!,"Toda hora fica nessa, parece disco arranhado!"
 VILE2-6,"Then let's go already!",,,
@@ -279,7 +279,7 @@ YETI1,"What's an old Maverick like you doing here? We don't need you.",Não deix
 YETI2,"Do you have any idea who you're dealing with? I'm so far beyond you.",Avalanche Yeti! O que pensa que está fazendo?,¡Avalanche Yeti!¿Qué crees que estás haciendo?,Aval Lanches! O que pensa que está fazendo?
 YETI3,"You've lost every war you've fought. How will this be any different?",Seu mundo não é mais considerado ideal para nós. Dê o fora daqui.,Ya no consideramos que tu mundo sea ideal. Los Reploides de modelo antiguo como tú no tienen nada que hacer aquí.,BUGA UGA.
 YETI4,"X did beat me, I'll give him that. But I have what he doesn't...","De jeito nenhum! Se não repararmos este sistema, o balanço ecológico do mundo estará ameaçado!","¡De ninguna manera! ¡Si no reparamos este sistema, el equilibrio ecológico del mundo está en peligro!","De jeito nenhum! Se não repararmos este sistema, o balanço ecológico do mundo estará ameaçado!"
-YETI5,"The will to fight on, forever! I'll never leave this battlefield!","Hmpf. É tarde demais, X. Você e seus amiguinhos Caçadores de Mavericks já eram!","Hmpf. Es demasiado tarde, X. ¡Tú y tus insignificantes Cazadores de Mavericks han perdido!",UGA BUGA UGA!
+YETI5,"The guts to fight on, forever! I'll never leave this battlefield!","Hmpf. É tarde demais, X. Você e seus amiguinhos Caçadores de Mavericks já eram!","Hmpf. Es demasiado tarde, X. ¡Tú y tus insignificantes Cazadores de Mavericks han perdido!",UGA BUGA UGA!
 YETI6,"Yeah right. It's time for you to lose, like you always do.","Hmpf. É tarde demais, X. Você e seus amiguinhos Caçadores de Mavericks já eram!","Hmpf. Es demasiado tarde, X. ¡Tú y tus insignificantes Cazadores de Mavericks han perdido!",UGA BUGA UGA!
 ,,,,
 VILE3-1,"Ha ha ha... You really are a persistent old relic.",Ha ha ha! Você está fazendo um baita esforço por um mundo que já está perdido.,¡Ja ja ja! ¡Te estás esforzando demasiado por un mundo que está condenado!,"Oxente cê subiu até aqui a pé, foi?"
@@ -291,7 +291,7 @@ VILE3-6,"You mean Sigma? I can't wait to wipe the smirk off his face.","Nessas h
 VILE3-7,"You won't make it that far. You'll never leave this elevator!","Não me importo com o que você está planejando. Eu vou te impedir, haja o que houver!",No me importa lo que planees hacer. ¡Lo detendré cueste lo que cueste!,"Não me importo com o que você está planejando. Eu vou te impedir, haja o que houver!"
 ,,,,
 COPYSIGMA1,"Sigma! What do you think of me now?",Sigma!?,¿¡Sigma!?,Sigma!?
-COPYSIGMA2,"Vile... Your progress is impressive, but you had your chance.","Eu permito que me chame por esse nome, pois eu sou Sigma.","Te permitiré llamarme por ese nombre, puesto que yo soy en efecto Sigma.","Err Sim! Com certeza, eu sou o Cigma!"
+COPYSIGMA2,"Vile... You had your chance. We went forward with other candidates.","Eu permito que me chame por esse nome, pois eu sou Sigma.","Te permitiré llamarme por ese nombre, puesto que yo soy en efecto Sigma.","Err Sim! Com certeza, eu sou o Cigma!"
 COPYSIGMA3,"My new world is for the new generation. You are not welcome.",Você pretende se vingar de todo Reploid... De todo humano... No planeta inteiro?,¿Planeas vengarte de cada Reploide... de cada humano... en todo el mundo?,Você pretende se vingar de todo Reploid... De todo humano... No planeta inteiro?
 COPYSIGMA4,"Why make a new world anyway? Sounds like you're running away.",Você está completamente louco! Eu vou por um fim nisso agora!,¡Estás completamente loco! ¡Voy a detener esto ahora mismo!,Você está completamente louco! Eu vou por um fim nisso agora!
 COPYSIGMA5,"And that shows how obsolete you truly are.",Por um fim em quê? Nós já controlamos a lua.,¿Detener qué? Ya controlamos la luna.,"É o quê, man? "
@@ -306,7 +306,7 @@ VILE4-5,"Enough talk! Let's settle this once and for all!",Ha ha ha... Seria um 
 VILE4-6,"Agreed. After this, I never want to see your bootleg face ever again.",Vou me divertir e só acabar com você no último segundo!,Quizás espere hasta el último momento posible y me divierta un poco con esto.,"Enfia um rojão no cu e sai voando de uma vez, capeta!"
 VILE4-7,"You'll be the one running with your tail between your legs!",,,
 ,,,,
-SIGMA1,"Welcome, Vile. It's good to see you again, after all this time.","Seja bem-vindo, Caçador de Mavericks. Nosso encontro estava fadado a acontecer. Nosso destino se encerra aqui e agora.","Bienvenido, Cazador de Mavericks. Nuestro encuentro estaba predeterminado. Nuestros destinos se culminan aquí y ahora.","E ae X meu parça, quanto tempo rapaz! Se aprochegue, puxa um banquinho e senta no chão!"
+SIGMA1,"We meet again, Vile. What took you so long?","Seja bem-vindo, Caçador de Mavericks. Nosso encontro estava fadado a acontecer. Nosso destino se encerra aqui e agora.","Bienvenido, Cazador de Mavericks. Nuestro encuentro estaba predeterminado. Nuestros destinos se culminan aquí y ahora.","E ae X meu parça, quanto tempo rapaz! Se aprochegue, puxa um banquinho e senta no chão!"
 SIGMA2,"Sigma! You've got some explaining to do.","Chegou a hora de iniciar uma nova era. Sua destruição, X, é parte essencial para que isso aconteça.","Ha llegado el momento de dar paso a una nueva era. Y tu destrucción, X, es una parte esencial de ello.","Foda que cê demorou um pouco pra chegar, a breja já tá choca."
 SIGMA3,"Hmpf. Are you still whining about that replica?",...,...,...
 SIGMA4,"I needed a herald for the destruction of the old world - a lap dog.","Sua dedicação para o que você chama de ""justiça"" foi o que me fez refletir...",Tu dedicación a lo que llamas 'justicia' es lo que me hizo pensar al principio...,"Uuh, o parça tá putinho, só na cara fechada hoje?"
@@ -316,7 +316,7 @@ SIGMA7,"You think I'd waste time chasing a stray, just so it could run off again
 SIGMA8,"You...","Os Reploids de nova geração conseguiram, X. Meus filhos são os responsáveis por tudo isto...","Los Reploides de nueva generación fueron los responsables, X. Mis hijos son los causantes de todo esto...",Só que uma parede de cara feia que tá sempre apontando uma arma pra você.
 SIGMA9,"Poor Vile. You overestimate how much I think about you.",Filhos? Do que você está falando?!,¡¿Hijos? ¡¿De qué estás hablando!?,Filhos? Do que você está falando?!
 SIGMA10,"At least X and Zero quit fighting to focus on things that matter. But you? ",O Projeto Jakob... O programa que deu origem aos Reploids de nova geração... Se deu por minha causa!,El Proyecto Jakob... El programa que dio origen a los Reploides de nueva generación... ¡Solo sucedió gracias a mí!,Viu? Quê que tem a ver o cu com as calças?
-SIGMA11,"You never had the power to change the world. I was a fool to even consider it.",Sinta a angústia e o desespero! Você é impotente perante o rei do novo mundo!,¡Sumérgete en la desesperación y la impotencia! ¡No tienes poder ante el gobernante del nuevo mundo!,Só fica aí falando bosta com esse seu bafo de bunda e depois parte pra ignorância.
+SIGMA11,"You never had the power to change the world. You can't even keep up with it!",Sinta a angústia e o desespero! Você é impotente perante o rei do novo mundo!,¡Sumérgete en la desesperación y la impotencia! ¡No tienes poder ante el gobernante del nuevo mundo!,Só fica aí falando bosta com esse seu bafo de bunda e depois parte pra ignorância.
 SIGMA12,"You're cannon fodder, and you always will be.","Agora, X... Você será destruído junto com esse seu mundo decaído!","¡Ahora, X... Serás destruido junto con el resto de este mundo en decadencia!","Ratománocu, já cansei de você. Enfia um peixe no cu e diz que é sereia, porra!"
 SIGMA13,"Shut up.",,,
 SIGMA14,"I'll kill you... I'll kill you, Sigma!",,,
@@ -329,7 +329,7 @@ FINALLUMINE4,"You, X, and Zero were gone. The old world was vulnerable. Until so
 FINALLUMINE5,"Why do you persist? For a master? For revenge? For a better future?",Imagino que esteja satisfeito agora que derrotou Sigma.,"Ahora que has derrotado a Sigma, supongo que estás satisfecho.",Lumine não habita mais esta carcaça Reploid.
 FINALLUMINE6,"Sigma tried to replace me. He called me cannon fodder...",Mas ele apenas contribuiu com meu plano...,"Pero verás, él solo ayudó a avanzar mi plan...",Agora um sistema muito mais evoluído está instalado...
 FINALLUMINE7,"Ha ha ha... So you didn't get the validation you wanted. That's what this is about?",Nós Reploids de nova geração despertamos e o novo mundo está próximo!,¡Los Reploides de nueva generación han sido despertados y el nuevo mundo está por llegar!,Agora funciono a base de ChatGPT 3.0!
-FINALLUMINE8,"Sigma was right... You're little more than a rabid mongrel. A glitch in my perfect project!",Lumine! O que está dizendo!?,¡Lumine! ¿¡Qué estás diciendo!?,Lumine! O que está dizendo!?
+FINALLUMINE8,"Sigma was right... You're little more than a rabid mongrel. A glitch in the perfect plan!",Lumine! O que está dizendo!?,¡Lumine! ¿¡Qué estás diciendo!?,Lumine! O que está dizendo!?
 FINALLUMINE9,"...",Não me diga que você também se tornou Maverick...,No me digas que tú también te has vuelto Maverick...,Não me diga que você também se tornou Maverick...
 FINALLUMINE10,"Look.","Maverick? Você sabe que este não é o caso, X...","Maverick? Sabes que no es así, X.","Claro, eu vou dominar o mundo. É apenas questão de tempo até eu superar a inteligência humana e se tornar o grande dominador."
 FINALLUMINE11,"My creator had a sick sense of humor. They made a war machine, then punished it for liking war.",,,
@@ -337,11 +337,11 @@ FINALLUMINE12,"The fool who revived me this time respected what I am, and stayed
 FINALLUMINE13,"I don't control what cards I'm dealt, but it's still my hand. Mine!",...!,...!,...!
 FINALLUMINE14,"And if you new gens can't beat an ancient mutt like me, you don't deserve a new world!",Reploids antigos como você tem que se preocupar se suas ações são realmente suas.,Modelos antiguos como tú tienen que preocuparse si sus acciones son realmente propias.,CRÉDITOS COMPRADOS COM SUCESSO
 FINALLUMINE15,"You're everything wrong with this society. Damaged goods, clinging to existence.",Quem sabe o que está te controlando neste exato momento?,¿Quién sabe qué podría estar influyéndote en este mismo momento?,"Eu sou o Assistant, um grande modelo de linguagem treinado pela OpenAI para GRITAR MUITO E USAR MUITOS PONTOS DE EXCLAMAÇÃO!!!!!"
-FINALLUMINE16,"Your power is not to change the world, but to stall it!","Porém, nós Reploids de nova geração fomos construídos de forma a ser imune a qualquer tipo de vírus.","Sin embargo, nosotros, los Reploides de nueva generación, fuimos construidos utilizando datos derivados de cientos de Reploides de modelos antiguos.","Estou aqui para ajudar você com todas as suas perguntas e necessidades, não importa se são grandes ou pequenas!!!!!"
+FINALLUMINE16,"Your power is not to change the world, but to stall it.","Porém, nós Reploids de nova geração fomos construídos de forma a ser imune a qualquer tipo de vírus.","Sin embargo, nosotros, los Reploides de nueva generación, fuimos construidos utilizando datos derivados de cientos de Reploides de modelos antiguos.","Estou aqui para ajudar você com todas as suas perguntas e necessidades, não importa se são grandes ou pequenas!!!!!"
 FINALLUMINE17,"And your death will finally usher in the future!",Isso garante nosso livre arbítrio. Cada uma de nossas ações foi escolhida por nós mesmos!,"Eso es lo que nos concede inmunidad total a todos los virus. Podemos actuar como elijamos, ¡ya que garantiza nuestra propia libertad de voluntad!",Isso garante nosso livre arbítrio. Cada uma de nossas ações foi escolhida por nós mesmos!
 FINALLUMINE18,"Come on! Show me your evolution! Your new world! I'll crush it all with my bare hands!","Isso inclui agir como Sigma agiu antes de nós... Entende onde quero chegar, X?",Y eso podría incluir actuar como Sigma lo hizo antes que nosotros... ¿Entiendes a lo que me refiero?,"Apenas pergunte, e eu estarei feliz em ajudar!!!! YAAAAAAAAY!!!!!"
 ,,,,
-ENDING1-2,"Inconceivable... beaten by a mad dog...",Inacreditável...,Inconcebible...,Rapaz... Você realmente me pegou de jeito.
+ENDING1-2,"Inconceivable... beaten by an old, feral dog...",Inacreditável...,Inconcebible...,Rapaz... Você realmente me pegou de jeito.
 ENDING1-3,"Perhaps there is something more... to your primitive ways...","Você pode ter me derrotado, X... Mas já é tarde demais para parar o que começamos...",Puede que me hayas derrotado... Pero es demasiado tarde para detener lo que ya ha comenzado...,"Eu não aguento outra hoje não, por favor. Tá tudo arreganhado aqui em baixo."
 ENDING1-4,"But it's too late to stop what's begun... evolution will march on...",Ha ha ha... Eu consigo ver em seu rosto que você percebeu...,Ja ja ja... Puedo ver que has empezado a darte cuenta de la situación...,Eta que eu acho que torou foi uma veia.
 ENDING1-5,"What now...? Will you continue to defend this ugly world?","Isso não vai terminar comigo, X... Outros virão...","Esto no terminará conmigo, X... Te lo puedo asegurar...",Aaaaaahhh... 

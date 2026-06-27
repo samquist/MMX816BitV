@@ -97,5 +97,5 @@ texture = ExtResource( 10 )
 z_index = 10
 frames = ExtResource( 11 )
 animation = " tag"
-frame = 3
+frame = 6
 playing = true
