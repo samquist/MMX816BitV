@@ -31,7 +31,7 @@ KEYCFG_START,KEY  CONFIG,CONTROLES,CONFIGURAR CONTROLES,CONTROLE ZOADO
 KEYCFG_ABV,KEYCFG,CONFIG,CONFIG,CONFIG
 OPTIONS_ABV,OPTIONS,OPÇÕES,OPCIONES,OPÇÕES
 TANK_ABV,SUB.T,SUB.T,SUB.T,SUB.T
-X_WPNMENU,X. Buster,X. Buster,X. Buster,Limão
+X_WPNMENU,C. Blast,X. Buster,X. Buster,Limão
 SUNFLOWER_WPNMENU,O. Shield,O. Shield,O. Shield,
 ANTONION_WPNMENU,S. Bomb,S. Bomb,S. Bomb,
 MANTIS_WPNMENU,D. Arrow,D. Arrow,D. Arrow,
@@ -41,7 +41,7 @@ TRILOBYTE_WPNMENU,C. Bouncer,C. Bouncer,C. Bouncer,
 YETI_WPNMENU,D. Diamond,D. Diamond,D. Diamond,
 ROOSTER_WPNMENU,F. Dash,F. Dash,F. Dash,
 ,,,,
-YOUGOT_TITLE,You get,Você obteve,Obtienes,Você Afanou
+YOUGOT_TITLE,You got,Você obteve,Obtienes,Você Afanou
 SUNFLOWER_WEAPON,Optic Shield,,,
 ANTONION_WEAPON,Squeeze Bomb,,,
 MANTIS_WEAPON,Dark Arrow,,,
@@ -147,7 +147,7 @@ DEFAULTHEAD_NAME,Default Head,Capacete Padrão,Casco Estandar,Chifres Padrão
 DEFAULTHEAD_DISC,Default part.,Parte padrão.,Parte Estandar,Parte padrão.
 DEFAULTBODY_NAME,Default Body,Peitoral Padrão,Peto Estandar,Petcholas Padrão
 DEFAULTBODY_DISC,Default part.,Parte padrão.,Parte Estandar,Parte padrão.
-DEFAULTARMS_NAME,Default Buster,Canhão Padrão,Buster Estandar,Berro Padrão
+DEFAULTARMS_NAME,Default arms,Canhão Padrão,Buster Estandar,Berro Padrão
 DEFAULTARMS_DISC,Default part.,Parte padrão.,Parte Estandar,Parte padrão.
 DEFAULTLEGS_NAME,Default Foot,Botas Padrão,Botas Estandar,Saltos Padrão
 DEFAULTLEGS_DISC,Default part. Can air dash.,Parte padrão. Dash aéreo.,Parte Estandar. Dash Aéreo,Parte padrão. Dash aéreo.
