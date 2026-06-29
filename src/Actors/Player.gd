@@ -141,7 +141,7 @@ func process_flash(delta):
 			end_flash()
 	
 func equip_hermes_head_parts():
-	get_node("Charge").charge_time_reduction = 0.47
+	get_node("Charge").charge_time_reduction = 0.45
 	get_node("JumpDamage").deactivate()
 
 func equip_hermes_body_parts():
@@ -179,7 +179,7 @@ func equip_hermes_legs_parts(): #ghost dash
 	airdash.invulnerability_duration = 0
 
 func equip_icarus_head_parts():
-	get_node("Charge").charge_time_reduction = 0.2
+	get_node("Charge").charge_time_reduction = 0
 	get_node("JumpDamage").activate()
 
 func equip_icarus_body_parts():
