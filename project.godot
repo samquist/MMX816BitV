@@ -1005,6 +1005,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Mega Man X8 16-bit Vile"
+config/description="Mod of Mega Man X8 16-bit, originally by Alysson De Paz."
 run/main_scene="res://src/Title/DisclaimerScreen.tscn"
 run/low_processor_mode=true
 boot_splash/show_image=false

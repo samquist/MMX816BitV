@@ -5,7 +5,7 @@ export var active := true
 export var logs = false
 export var chargeable_without_ammo := false
 export var shots : Array
-export var max_shots_alive := 3
+export var max_shots_alive := 5
 export var max_charged_shots_alive := 3
 var shots_currently_alive := 0
 var charged_shots_currently_alive := 0
