@@ -415,7 +415,7 @@ position = Vector2( 4272, -450 )
 z_index = -2
 
 [node name="_centralwhite_3" parent="Scenery/Stage Segments" instance=ExtResource( 68 )]
-position = Vector2( 7840, -1490 )
+position = Vector2( 7841, -1490 )
 z_index = -2
 
 [node name="_centralwhite_4" parent="Scenery/Stage Segments" instance=ExtResource( 69 )]
@@ -793,7 +793,7 @@ pause_mode = 2
 position = Vector2( 4406, -1313 )
 z_index = 2
 frames = SubResource( 187 )
-frame = 2
+frame = 4
 playing = true
 flip_h = true
 script = ExtResource( 82 )

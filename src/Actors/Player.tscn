@@ -279,7 +279,7 @@ position = Vector2( 0, -4 )
 z_index = 5
 frames = ExtResource( 1 )
 animation = "idle"
-frame = 80
+frame = 74
 playing = true
 
 [node name="head_armor" type="AnimatedSprite" parent="animatedSprite"]
