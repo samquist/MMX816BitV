@@ -51,7 +51,7 @@ shape = SubResource( 7 )
 z_index = 2
 frames = ExtResource( 1 )
 animation = "Tag"
-frame = 5
+frame = 4
 playing = true
 
 [node name="collisionShape2D" type="CollisionShape2D" parent="."]

@@ -18,7 +18,6 @@ func hit(target):
 		if target.is_in_group("Enemies"):
 			Event.emit_signal("charge_hit_enemy")
 
-
 func deflect(_body) -> void:
 	if is_in_group("Player Projectile"):
 		.deflect(_body)

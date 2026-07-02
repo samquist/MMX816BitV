@@ -30,7 +30,7 @@ move_speed = 150.0
 [node name="animatedSprite" type="AnimatedSprite" parent="."]
 frames = ExtResource( 7 )
 animation = "idle"
-frame = 4
+frame = 10
 playing = true
 flip_h = true
 
