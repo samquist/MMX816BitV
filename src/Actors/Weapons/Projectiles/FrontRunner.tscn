@@ -1,31 +1,33 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://src/Actors/Weapons/Projectiles/medium_shot.res" type="SpriteFrames" id=1]
-[ext_resource path="res://src/Actors/Weapons/Projectiles/Medium Buster.gd" type="Script" id=2]
+[ext_resource path="res://src/Actors/Weapons/Projectiles/front_runner.res" type="SpriteFrames" id=1]
+[ext_resource path="res://src/Actors/Weapons/Projectiles/FrontRunner.gd" type="Script" id=2]
 [ext_resource path="res://src/Sounds/MEDIUM_SHOT.wav" type="AudioStream" id=3]
 [ext_resource path="res://src/Effects/Basic Hit.tscn" type="PackedScene" id=4]
 [ext_resource path="res://SpriteEffect.gd" type="Script" id=5]
-[ext_resource path="res://src/Effects/Deflect/medium_deflect.png" type="Texture" id=6]
+[ext_resource path="res://src/Effects/Deflect/frontrunner_deflect.png" type="Texture" id=6]
 [ext_resource path="res://src/Effects/Materials/buster_medium_particles.tres" type="Material" id=7]
 [ext_resource path="res://src/Levels/Primrose/rotation_disabler.gd" type="Script" id=8]
 
 [sub_resource type="RectangleShape2D" id=5]
-extents = Vector2( 15, 16 )
+extents = Vector2( 15, 18 )
 
 [node name="Medium" type="KinematicBody2D" groups=["Player Projectile"]]
 z_index = 6
 collision_layer = 4
 collision_mask = 0
 script = ExtResource( 2 )
-damage = 5.0
-damage_to_bosses = 5.0
-damage_to_weakness = 10.0
+damage = 8.0
+damage_to_bosses = 8.0
+damage_to_weakness = 15.0
+horizontal_velocity = 380.0
 fire_sound = ExtResource( 3 )
+break_guards = true
 
 [node name="animatedSprite" type="AnimatedSprite" parent="."]
 frames = ExtResource( 1 )
 animation = "loop"
-frame = 1
+frame = 2
 playing = true
 
 [node name="collisionShape2D" type="CollisionShape2D" parent="."]

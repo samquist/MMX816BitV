@@ -1,4 +1,4 @@
-[gd_scene load_steps=132 format=2]
+[gd_scene load_steps=133 format=2]
 
 [ext_resource path="res://src/Actors/Player/x_sprites/x.res" type="SpriteFrames" id=1]
 [ext_resource path="res://src/Actors/Player.gd" type="Script" id=2]
@@ -119,6 +119,7 @@
 [ext_resource path="res://src/Actors/Bosses/SatanSigma/flash.gd" type="Script" id=117]
 [ext_resource path="res://src/Effects/Textures/elec_particles.png" type="Texture" id=118]
 [ext_resource path="res://src/Effects/Materials/xdrive_particles.tres" type="Material" id=119]
+[ext_resource path="res://src/Actors/Weapons/Projectiles/FrontRunner.tscn" type="PackedScene" id=120]
 
 [sub_resource type="RectangleShape2D" id=32]
 extents = Vector2( 6.995, 7 )
@@ -279,7 +280,7 @@ position = Vector2( 0, -4 )
 z_index = 5
 frames = ExtResource( 1 )
 animation = "idle"
-frame = 1
+frame = 5
 playing = true
 
 [node name="head_armor" type="AnimatedSprite" parent="animatedSprite"]
@@ -796,6 +797,7 @@ bus = "SFX"
 
 [node name="Charge" type="Node2D" parent="."]
 script = ExtResource( 24 )
+active = false
 conflicting_moves = [ "Death", "WeaponStasis", "Nothing" ]
 actions = [ "fire" ]
 sound = ExtResource( 103 )
@@ -827,6 +829,7 @@ normal_sprites = ExtResource( 1 )
 arm_pointing_sprites = ExtResource( 10 )
 
 [node name="Buster" parent="AltFire" instance=ExtResource( 21 )]
+shots = [ ExtResource( 120 ) ]
 
 [node name="Icarus Buster" parent="AltFire" instance=ExtResource( 43 )]
 active = false
