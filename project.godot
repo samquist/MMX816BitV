@@ -659,11 +659,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://Shot.gd"
 }, {
-"base": "Weapon",
-"class": "ShoulderWeapon",
-"language": "GDScript",
-"path": "res://src/Actors/ShoulderWeapon.gd"
-}, {
 "base": "GenericProjectile",
 "class": "SimplePlayerProjectile",
 "language": "GDScript",
@@ -975,7 +970,6 @@ _global_script_class_icons={
 "ShieldClaw": "",
 "ShootableButton": "",
 "Shot": "",
-"ShoulderWeapon": "",
 "SimplePlayerProjectile": "",
 "SimpleProjectile": "",
 "Spawner": "",

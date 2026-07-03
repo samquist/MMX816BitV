@@ -28,7 +28,7 @@ break_guards = true
 [node name="animatedSprite" type="AnimatedSprite" parent="."]
 frames = ExtResource( 1 )
 animation = "loop"
-frame = 4
+frame = 1
 playing = true
 
 [node name="collisionShape2D" type="CollisionShape2D" parent="."]
