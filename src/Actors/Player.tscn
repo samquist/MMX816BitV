@@ -114,12 +114,12 @@
 [ext_resource path="res://src/Effects/Materials/mat_x_armor_2.tres" type="Material" id=112]
 [ext_resource path="res://src/Effects/Materials/mat_x_armor_3.tres" type="Material" id=113]
 [ext_resource path="res://src/Effects/Materials/mat_x_armor_4.tres" type="Material" id=114]
-[ext_resource path="res://src/Actors/Weapons/Projectiles/Icarus Lemon.tscn" type="PackedScene" id=115]
 [ext_resource path="res://src/Levels/PitchBlack/light.png" type="Texture" id=116]
 [ext_resource path="res://src/Actors/Bosses/SatanSigma/flash.gd" type="Script" id=117]
 [ext_resource path="res://src/Effects/Textures/elec_particles.png" type="Texture" id=118]
 [ext_resource path="res://src/Effects/Materials/xdrive_particles.tres" type="Material" id=119]
 [ext_resource path="res://src/Actors/Weapons/Projectiles/FrontRunner.tscn" type="PackedScene" id=120]
+[ext_resource path="res://src/Actors/ShoulderWeapon.gd" type="Script" id=121]
 
 [sub_resource type="RectangleShape2D" id=32]
 extents = Vector2( 6.995, 7 )
@@ -280,7 +280,7 @@ position = Vector2( 0, -4 )
 z_index = 5
 frames = ExtResource( 1 )
 animation = "idle"
-frame = 34
+frame = 6
 playing = true
 
 [node name="head_armor" type="AnimatedSprite" parent="animatedSprite"]
@@ -808,8 +808,6 @@ super_charged_sound = ExtResource( 27 )
 color = Color( 0, 0.25098, 0.941176, 1 )
 super_color = Color( 0.282353, 0.533333, 0.698039, 1 )
 minimum_charge_time = 0.75
-level_3_charge = 2.0
-level_4_charge = 3.0
 
 [node name="audioStreamPlayer" type="AudioStreamPlayer" parent="Charge"]
 pause_mode = 2
@@ -832,12 +830,16 @@ normal_sprites = ExtResource( 1 )
 arm_pointing_sprites = ExtResource( 10 )
 
 [node name="Buster" parent="AltFire" instance=ExtResource( 21 )]
+active = false
 shots = [ ExtResource( 120 ) ]
 
 [node name="Icarus Buster" parent="AltFire" instance=ExtResource( 43 )]
-active = false
-shots = [ ExtResource( 115 ) ]
+chargeable_without_ammo = false
+shots = [ ExtResource( 120 ) ]
 max_charged_shots_alive = 0
+
+[node name="Shoulder Weapon" type="Node2D" parent="AltFire"]
+script = ExtResource( 121 )
 
 [node name="DashWallJump" type="Node2D" parent="."]
 script = ExtResource( 20 )
