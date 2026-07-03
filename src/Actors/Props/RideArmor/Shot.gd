@@ -4,8 +4,7 @@ export var projectile : PackedScene
 
 const move := -12.0
 
-var shot_position: Node2D = null
-var default_shot_position_name := $shot_position
+onready var shot_position: Node2D = $shot_position
 
 onready var physics = Physics.new(get_parent())
 onready var tween = TweenController.new(self)

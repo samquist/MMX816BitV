@@ -14,3 +14,4 @@ func switch_to_hermes():
 	if icarus_buster != null:
 		icarus_buster.active = false
 		set_current_weapon(buster)
+

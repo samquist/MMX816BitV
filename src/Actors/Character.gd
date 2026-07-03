@@ -30,6 +30,7 @@ onready var low_jumpcasts = [walljumpcast_left3,walljumpcast_right3]
 onready var collisor := $"Enemy Collision Detector".get_node("CollisionShape2D")
 
 onready var shot_position := get_node("Shot Position")
+onready var altfire_position := get_node("AltFire Position")
 
 var colors = []
 

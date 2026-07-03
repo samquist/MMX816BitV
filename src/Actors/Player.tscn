@@ -280,7 +280,7 @@ position = Vector2( 0, -4 )
 z_index = 5
 frames = ExtResource( 1 )
 animation = "idle"
-frame = 39
+frame = 34
 playing = true
 
 [node name="head_armor" type="AnimatedSprite" parent="animatedSprite"]
@@ -515,7 +515,7 @@ visible = false
 [node name="Shot Position" type="Node2D" parent="."]
 position = Vector2( 18, -3 )
 
-[node name="Cannon Shot Position" type="Node2D" parent="."]
+[node name="AltFire Position" type="Node2D" parent="."]
 position = Vector2( 13, -16 )
 
 [node name="WeaponChanger" type="Node2D" parent="."]
