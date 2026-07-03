@@ -20,7 +20,7 @@
 [ext_resource path="res://src/Actors/Player/Modules/Fall.tscn" type="PackedScene" id=18]
 [ext_resource path="res://AirDash.gd" type="Script" id=19]
 [ext_resource path="res://DashWallJump.gd" type="Script" id=20]
-[ext_resource path="res://src/Actors/Weapons/Lemon_Only.tscn" type="PackedScene" id=21]
+[ext_resource path="res://src/Actors/Weapons/Shoulder Weapon.tscn" type="PackedScene" id=21]
 [ext_resource path="res://src/Actors/PrimaryShot.gd" type="Script" id=22]
 [ext_resource path="res://src/Effects/Materials/mat_x_armor.tres" type="Material" id=23]
 [ext_resource path="res://Charge.gd" type="Script" id=24]
@@ -280,7 +280,7 @@ position = Vector2( 0, -4 )
 z_index = 5
 frames = ExtResource( 1 )
 animation = "idle"
-frame = 34
+frame = 85
 playing = true
 
 [node name="head_armor" type="AnimatedSprite" parent="animatedSprite"]
@@ -808,8 +808,6 @@ super_charged_sound = ExtResource( 27 )
 color = Color( 0, 0.25098, 0.941176, 1 )
 super_color = Color( 0.282353, 0.533333, 0.698039, 1 )
 minimum_charge_time = 0.75
-level_3_charge = 2.0
-level_4_charge = 3.0
 
 [node name="audioStreamPlayer" type="AudioStreamPlayer" parent="Charge"]
 pause_mode = 2
@@ -833,6 +831,7 @@ arm_pointing_sprites = ExtResource( 10 )
 
 [node name="Buster" parent="AltFire" instance=ExtResource( 21 )]
 shots = [ ExtResource( 120 ) ]
+max_charged_shots_alive = 1
 
 [node name="Icarus Buster" parent="AltFire" instance=ExtResource( 43 )]
 active = false
