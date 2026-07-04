@@ -2,7 +2,7 @@ extends Weapon
 class_name ShoulderWeapon
 
 var is_attacking := false
-var attack_duration := 0.4
+var attack_duration := 0.45
 
 func _ready() -> void:
 	._ready()
@@ -44,8 +44,13 @@ func fire(charge_level := 0) -> void:
 	character.set_horizontal_speed(0)
 	character.set_vertical_speed(0)
 	
-	# Play attack animation
-	character.play_animation_once("shot_strong")
+	# Check if player is in the air (not on floor)
+	if character.is_on_floor():
+		# Ground animation
+		character.play_animation_once("shot_strong")
+	else:
+		# Air animation
+		character.play_animation_once("shot_right")
 	
 	# Spawn the projectile
 	.fire(charge_level)
